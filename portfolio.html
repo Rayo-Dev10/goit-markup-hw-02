@@ -1,34 +1,152 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tarea 1 - extempore</title>
-</head>
-<body>
-  <header>
-    <nav>
-      <a href="WebStudio">WebStudio</a>
-      <ul>
-        <li><a href="#">Estudio</a></li>
-        <li><a href="#">Portafolio</a></li>
-        <li><a href="#">Contactos</a></li>
-      </ul>
-    </nav>
-    <ul>
-      <li>info@devstudio.com</li>
-      <li>+52 55 5529 6000</li>
-    </ul>
-  </header>
-  <main>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarea 2 - extempore</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="header-navigation">
+        <a href="./index.html" class="header-logo link"
+          ><span class="logo-blue">web</span>studio</a
+        >
+        <ul class="header-menu list">
+            <li class="header-menu-item">
+              <a href="./index.html" class="header-link link current">Estudio</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="./portfolio.html" class="header-link link">Portafolio</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#" class="header-link link">Contactos</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-contact list contact">
+          <li class="header-email">
+            <a href="mailto:info@devstudio.com" class="email link contact"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="header-tel contact">
+            <a href="tel:+525555296000" class="tel link contact">+55 5529 6000</a>
+          </li>
+        </ul>
+      </header>
+    </header>
+    <main class="main-container">
+      <section class="hero">
+        <ul class="hero-buttons">
+          <li><button type="button">Todo</button></li>
+          <li><button type="button">Sitios-Web</button></li>
+          <li><button type="button">Aplicaciones</button></li>
+          <li><button type="button">Diseño</button></li>
+          <li><button type="button">Marketing</button></li>
+        </ul>
 
-    
+        <article class="recommendations">
+          <img
+            class="recommendations-picture"
+            src="Images/Tarea2Productos/1.Tecnoduck c.jpg"
+            alt="#"
+            width="360"
+          />
+          <h3 class="recommendations-name">Tecnoduck</h3>
+          <p class="recommendations-category">Sitios-Web</p>
+        </article>
+        <article class="recommendations">
+          <img
+            class="recommendations-picture"
+            src="Images/Tarea2Productos/2.Póster de Nueva Orleans vs Estrella Dorada c.jpg"
+            alt="#"
+            width="360"
+          />
+          <h3 class="recommendations-name">
+            Póster de Nueva Orleans vs Estrella Dorada
+          </h3>
+          <p class="recommendations-category">Diseño</p>
+        </article>
+        <article class="recommendations">
+          <img
+            class="recommendations-picture"
+            src="Images/Tarea2Productos/3.Restaurante de Mariscos c.jpg"
+            alt="#"
+            width="360"
+          />
+          <h3 class="recommendations-name">Restaurante de Mariscos</h3>
+          <p class="recommendations-category">Aplicaciones</p>
+        </article>
+        <article class="recommendations">
+          <img
+            class="recommendations-picture"
+            src="Images/Tarea2Productos/4.Proyecto Prime c.jpg"
+            alt="#"
+            width="360"
+          />
+          <h3 class="recommendations-name">Proyecto Prime</h3>
+          <p class="recommendations-category">Marketing</p>
+        </article>
+        <article class="recommendations">
+          <img
+            class="recommendations-picture"
+            src="Images/Tarea2Productos/5.Proyecto Cajas c.jpg"
+            alt="#"
+            width="360"
+          />
+          <h3 class="recommendations-name">Proyecto Cajas</h3>
+          <p class="recommendations-category">Aplicaciones</p>
+        </article>
+        <article class="recommendations">
+          <img
+            class="recommendations-picture"
+            src="Images/Tarea2Productos/6.La inspiración no tiene límites c.jpg"
+            alt="#"
+            width="360"
+          />
+          <h3 class="recommendations-name">La inspiración no tiene límites</h3>
+          <p class="recommendations-category">Sitios-Web</p>
+        </article>
+        <article class="recommendations">
+          <img
+            class="recommendations-picture"
+            src="Images/Tarea2Productos/7.Edición Limitada c.jpg"
+            alt="#"
+            width="360"
+          />
+          <h3 class="recommendations-name">Edición Limitada</h3>
+          <p class="recommendations-category">Diseño</p>
+        </article>
+        <article class="recommendations">
+          <img
+            class="recommendations-picture"
+            src="Images/Tarea2Productos/8.Proyecto LAB c.jpg"
+            alt="#"
+            width="360"
+          />
+          <h3 class="recommendations-name">Proyecto LAB</h3>
+          <p class="recommendations-category">Marketing</p>
+        </article>
+        <article class="recommendations">
+          <img
+            class="recommendations-picture"
+            src="Images/Tarea2Productos/9.Negocio en Crecimiento c.jpg"
+            alt="#"
+            width="360"
+          />
+          <h3 class="recommendations-name">Negocio en Crecimiento</h3>
+          <p class="recommendations-category">Aplicaciones</p>
+        </article>
+      </section>
     </main>
-    <footer>
-        <p><a href="WebStudio">WebStudio</a></p>
-        <address>Calz. Ticomán 500, Ciudad de México, CDMX, México</address>
-        <p>info@example.com</p>
-        <p>+52 55 5529 6000</p>
+    <footer class="site-footer">
+        <p class="footer-line home"><a href="./index.html">WebStudio</a></p>
+        <address class="footer address">Calz. Ticomán 500, Ciudad de México, CDMX, México</address>
+        <p class="footer-line email contact">info@example.com</p>
+        <p class="footer-line tel contact">+52 55 5529 6000</p>
       </footer>
-    </body>
-    </html>
+  </body>
+</html>
+  </body>
+</html>
