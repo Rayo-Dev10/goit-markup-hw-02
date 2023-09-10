@@ -82,7 +82,12 @@ a {
   border: none;
   border-radius: 0;
 }
-/* :::Estilos de botones::: */
+
+.contact-hover-footer:hover {
+  color: var(--color-focus-text);
+  opacity: 1;
+}
+/* :::Final Estilos de botones::: */
 
 /* :::Articles::: */
 .recommendations-name {
@@ -126,13 +131,12 @@ address {
   font-size: 0.875;
   cursor: pointer;
 }
-/* :::final footerfinal ::: */
 
 .contact-hover:hover {
   color: var(--color-focus);
 }
+/* :::final footerfinal ::: */
 
-.contact-hover-footer:hover {
-  color: var(--color-focus-text);
-  opacity: 1;
-}
+
+
+
